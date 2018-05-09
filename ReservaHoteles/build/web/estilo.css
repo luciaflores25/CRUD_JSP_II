@@ -1,0 +1,398 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: gainsboro;
+        font-family: verdana;
+}
+
+#wrapper{
+	width: 1165px;
+	margin: 0px auto;
+}
+
+nav{
+	background: crimson;
+	text-align: center;
+	padding: 15px;
+	font-weight: bold;
+	border-radius: 8px;
+	box-shadow: -1px 3px 97px 12px black;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: black;
+}
+
+nav span{
+	padding: 15px;
+}
+
+header{
+	background-image: url(images/header.jpg);
+	height: 200px;
+	border-radius: 15px;
+	box-shadow: -1px 3px 97px 12px black;
+	
+}
+
+#rotulo{
+	color: white;
+	font-size: 45px;
+	position: relative;
+	top: 40px;
+	left: 70px;
+	font-family: 'Faster One', cursive;
+}
+
+#web{
+    color: black;
+    position: relative;
+    top: 40px;
+    left: 90px;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+section{
+    background: gainsboro;
+    background-size: cover;
+    border-radius: 15px;
+    text-align: justify;
+    padding: 15px;
+}
+
+footer{
+	background: crimson;
+        color: white;
+	text-align: center;
+	padding: 15px;
+	font-weight: bold;
+	border-radius: 8px;
+	box-shadow: -1px 3px 97px 12px black;
+}
+
+
+/*
+USUARIO NOT FOUND 
+*/
+
+#fondoLogin{
+    height: 230px;
+}
+
+#errorContraseña{
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+#btnVolver{
+    background: cornflowerblue;
+    text-decoration: none;
+    padding: 7px 16px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 500px;
+    top: 100px;
+    right: 15px;
+    cursor: pointer;
+}
+
+
+
+/*
+    ESTILO DEL INICIO 
+*/
+
+#tituloOpciones{
+    text-align: center;
+}
+
+.tableInicio {
+    border-collapse: collapse;
+    position: relative;
+    text-align: center;
+    left: 130px;
+}
+
+.tableInicio, .trInicio{
+}
+
+.icono{
+        width: 200px;
+        height: 200px;
+        padding: 50px;
+}
+
+.letras{
+        height: 50px;
+}
+
+.letras, a{
+    text-decoration: none;
+    font-size: 18px;
+    color: crimson;
+    font-weight: bold;
+}
+
+.letras a:hover{
+    color: black;
+    font-size: 22px;
+}
+
+
+/*
+FORMULARIOS DE LOGIN, AÑADIR Y DE MODIFICAR
+*/
+
+.formulario{
+    margin: 0px auto;
+    position: relative;
+    top: 25px;
+    max-width: 500px;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.tituloFormulario{
+    background: cornflowerblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 5px solid crimson;
+}
+
+.contenedorInputs{
+    margin: 20px;
+    text-align: center;
+}
+
+
+.botonFormulario{
+    background: cornflowerblue;
+    color: white;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 21px;
+    clear: both;
+    width: 150px;
+    margin: 20px;
+}
+
+label{
+    float: left;
+    padding: 15px;
+    width: 150px;
+    margin: 10px;
+}
+
+input{
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+}
+
+select {
+    background: transparent;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 14px;
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+  }
+  
+  select:focus{ outline: none;
+  }
+
+
+/*
+    Estilo listado Cliente, hoteles y reservas
+*/
+
+.tituloListado{
+    text-align: center;
+    padding: 20px;
+}
+
+#estiloTablaCliente{
+	margin: 0px auto;
+}
+
+#estiloTablaReservas{
+	margin: 0px auto;
+}
+
+.tableListado{
+	background-color: white;
+	text-align: center;
+	border-collapse: collapse;
+        margin-left: 100px;
+}
+
+.thListado, .tdListado{
+	padding: 15px;
+}
+
+.theadListado{
+	background-color: cornflowerblue;
+	border-bottom: 5px solid crimson;
+	color: white;
+}
+
+.trListado:nth-child(even){
+	background-color: #F2F2F2;
+}
+
+.trListado:hover td{
+	background-color: rgb(147,201,255);
+	color: crimson;
+}
+
+.botonModificar{
+    background-color: cornflowerblue;
+    padding: 7px 16px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid darkturquoise;
+    cursor: pointer;
+}
+
+.botonBorrar{
+    background-color: crimson;
+    padding: 7px 16px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid burlywood;
+    position: relative;
+    right: 15px;
+    cursor: pointer;
+}
+
+
+/*
+    ESTILO CONFIRMACION BORRADO DE RESERVAS Y CLIENTES
+*/
+
+.marcoAviso{
+    margin-bottom: 50px;
+}
+
+.avisoBorrado{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.seguro{
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 60px;
+}
+
+.cancelarConfirmacion{
+    position: relative;
+    top: 50px;
+    left: 588px;
+    background: crimson;
+    color: white;
+    border: 1px solid crimson;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.aceptarConfirmacion{
+    position: relative;
+    top: 89px;
+    left: 500px;
+    background: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+
+
+/*
+    Estilos de los errores cliente y dni
+*/
+
+.errorH{
+    text-align: center;
+    padding: 15px;
+}
+
+.nuevoIntento{
+   background: lightcoral;
+   text-decoration: none;
+   color: white;
+   padding: 5px;
+   border-radius: 5px;
+   font-weight: bold;
+   position: relative;
+   left: 500px; 
+   cursor: pointer;
+}
+
+
+
+/*
+    Página para ver que se ha añadido una reserva o un cliente correctamente
+*/
+
+.mensajeGrabaReserva{
+    text-align: center;
+    padding: 15px;
+}
+
+.hacerloDeNuevo{
+    background: lightcoral;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    position: relative;
+    left: 397px;
+}
+
+.aceptarNuevo{
+    background: lightcoral;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    position: relative;
+    left: 430px;
+}
