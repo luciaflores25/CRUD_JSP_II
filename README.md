@@ -23,13 +23,26 @@ pueden modificar los clientes y los hoteles.
 <img src="capturas/errorLogin.PNG">
 
 ## INICIO
+<img src="capturas/inicio.PNG">
 
+## LISTADO CLIENTES
+<img src="capturas/listadoClientes.PNG">
 
-## LISTADOS
+## LISTADO HOTELES
+<img src="capturas/listadoHoteles.PNG">
 
+## LISTADO RESERVAS
+<img src="capturas/listadoReservas.PNG">
 
-## FORMULARIOS PARA AÑADIR Y MODIFICAR
+## FORMULARIOS PARA AÑADIR Y MODIFICAR CLIENTES
+<img src="capturas/nuevoCliente-1.PNG">
+<img src="capturas/nuevoCliente-2.PNG">
 
+## FORMULARIOS PARA AÑADIR Y MODIFICAR HOTELES
+<img src="capturas/nuevoHotel.PNG">
+
+## FORMULARIOS PARA AÑADIR RESERVAS
+<img src="capturas/nuevaReserva.PNG">
 
 
 
