@@ -353,14 +353,14 @@ select {
 }
 
 .nuevoIntento{
-   background: lightcoral;
+   background: cornflowerblue;
    text-decoration: none;
    color: white;
    padding: 5px;
    border-radius: 5px;
    font-weight: bold;
    position: relative;
-   left: 500px; 
+   left: 425px; 
    cursor: pointer;
 }
 
@@ -376,7 +376,7 @@ select {
 }
 
 .hacerloDeNuevo{
-    background: lightcoral;
+    background: cornflowerblue;
     text-decoration: none;
     color: white;
     padding: 5px;
@@ -387,7 +387,7 @@ select {
 }
 
 .aceptarNuevo{
-    background: lightcoral;
+    background: limegreen;
     text-decoration: none;
     color: white;
     padding: 5px;

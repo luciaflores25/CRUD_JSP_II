@@ -53,6 +53,7 @@
                             <form method="get" action="modificaCliente.jsp">
                                 <input type="hidden" name="nombreCliente" value="<%=listado.getString("nombreCliente")%>">
                                 <input type="hidden" name="apellidosCliente" value="<%=listado.getString("apellidosCliente")%>">
+                                <input type="hidden" name="telefonoCliente" value="<%=listado.getString("telefonoCliente")%>">
                                 <input type="hidden" name="sexoCliente" value="<%=listado.getString("sexoCliente")%>">
                                 <input type="hidden" name="DniCliente" value="<%=listado.getString("DniCliente")%>">
                                 <input type="hidden" name="EmailCliente" value="<%=listado.getString("EmailCliente")%>">

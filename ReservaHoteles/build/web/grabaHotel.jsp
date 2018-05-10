@@ -34,7 +34,7 @@
                         + "'" + request.getParameter("nombreHotel")
                         + "', '" + request.getParameter("ciudadHotel")
                         + "', '" + request.getParameter("paisHotel")
-                        + "', '" + request.getParameter("numeroEstrellas")+ "')";
+                        + "'," + request.getParameter("numeroEstrellas") + ")";
                 s.execute(insercion);
 
               conexion.close();

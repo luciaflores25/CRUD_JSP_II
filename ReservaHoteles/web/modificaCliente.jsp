@@ -29,7 +29,7 @@
                         <label>Apellidos</label>
                         <input type="text" name="apellidosCliente" value="<%= request.getParameter("apellidosCliente") %>" required><br/>
                         <label>Teléfono</label>
-                        <input type="text" name="telefonoCliente" value="<%= request.getParameter("telefonoCliente") %>" required><br/>
+                        <input type="text" name="telefonoCliente" maxlength="9" value="<%= request.getParameter("telefonoCliente") %>" required><br/>
                         <label>Sexo</label>
                         <%
                             ArrayList<String> sexo = new ArrayList();

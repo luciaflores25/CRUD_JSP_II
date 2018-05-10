@@ -28,20 +28,13 @@
                   Statement s = conexion.createStatement();
                   request.setCharacterEncoding("UTF-8");
                   
-                  // Comprueba la existencia del número de socio introducido
-                  String consultaNumSocio = "SELECT * FROM cliente WHERE clienteID = " + Integer.valueOf(request.getParameter("clienteID"));
-                  ResultSet numeroDeSocios = s.executeQuery(consultaNumSocio);
-                  numeroDeSocios.last();
-                  if (numeroDeSocios.getRow() != 0) {
-                    String insercion = "INSERT INTO reserva (clienteID, hotelID) VALUES ("
-                            + Integer.valueOf(request.getParameter("clienteID"))
-                            + ", " + Integer.valueOf(request.getParameter("hotelID")) + ")";
-                    s.execute(insercion);
-                    out.println("<h2 class=\"mensajeGrabaReserva\">");
-                    out.println("Ha realizado la reserva correctamente.</h2>");
-                  } else {
-                    response.sendRedirect("errorCliente.jsp");
-                  }
+                String insercion = "INSERT INTO reserva (clienteID, hotelID) VALUES ("
+                        + Integer.valueOf(request.getParameter("clienteID"))
+                        + ", " + Integer.valueOf(request.getParameter("hotelID")) + ")";
+                s.execute(insercion);
+                out.println("<h2 class=\"mensajeGrabaReserva\">");
+                out.println("Ha realizado la reserva correctamente.</h2>");
+                    
                   conexion.close();
                   
                 %>
