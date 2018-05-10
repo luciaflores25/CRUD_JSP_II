@@ -19,7 +19,8 @@ Se puede ver un listado, añadir y borrar los clientes, hoteles y reservas. En ca
 pueden modificar los clientes y los hoteles.
 
 ## LOGIN
-
+<img src="capturas/index.PNG" width="500px">
+<img src="capturas/errorLogin.PNG" width="500px">
 
 ## INICIO
 
