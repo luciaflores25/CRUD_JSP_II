@@ -29,23 +29,24 @@ pueden modificar los clientes y los hoteles.
 <img src="capturas/listadoClientes.PNG">
 
 ## LISTADO HOTELES
-<img src="capturas/listadoHoteles.PNG">
+<img src="capturas/ListadoHoteles.PNG">
 
-## LISTADO RESERVAS y confirmación cancelación
+## LISTADO RESERVAS
 <img src="capturas/listadoReservas.PNG">
 <img src="capturas/confirmacionBorrado.PNG">
 
 ## FORMULARIOS PARA AÑADIR Y MODIFICAR CLIENTES (Con ArrayList)
 <img src="capturas/nuevoCliente-1.PNG">
 <img src="capturas/nuevoCliente-2.PNG">
-<img src="capturas/confirmacionBorradoCliente.PNG">
+<img src="capturas/errorDNI.PNG">
 <img src="capturas/grabaCliente.PNG">
 <img src="capturas/grabaClienteModificado.PNG">
+<img src="capturas/confirmacionBorradoCliente.PNG">
 
 ## FORMULARIOS PARA AÑADIR Y MODIFICAR HOTELES
 <img src="capturas/nuevoHotel.PNG">
 <img src="capturas/confirmacionBorradoHotel.PNG">
-<img src="capturas/errorDNI.PNG">
+
 <img src="capturas/grabaHotel.PNG">
 <img src="capturas/grabaHotelModificado.PNG">
 
