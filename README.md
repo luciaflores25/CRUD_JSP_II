@@ -18,7 +18,7 @@ La base de datos consta de 3 tablas:
 Se puede ver un listado, añadir y borrar los clientes, hoteles y reservas. En cambio solo se 
 pueden modificar los clientes y los hoteles.
 
-## LOGIN
+## LOGIN con HashMap
 <img src="capturas/index.PNG">
 <img src="capturas/errorLogin.PNG">
 
